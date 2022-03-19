@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(242, 241, 234);
+  margin: 0;
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1, h2, h3, h4, a {
+  font-family: Poppins;
+  color: #181616;
+}
+
+p {
+  font-family: Roboto;
+  color: #181616;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 250px;
+  justify-content: center;
+}
+
+.footer {
+  padding: 15px 100px;
+  background-color: #89c4b1;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input[type=text]:focus {
+  background-color: rgba(193, 221, 230, 0.948);
+}
+.input[type=button], input[type=submit], input[type=reset] {
+  background-color: rgba(210, 238, 247, 0.948);
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+  color: rgb(74, 74, 74);
+  padding: 3px 3px;
+  text-decoration: none;
+  margin: 20px 2px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgb(181, 181, 181);
+}
